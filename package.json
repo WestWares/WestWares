@@ -1,7 +1,6 @@
 {
   "name": "WestWares",
-  "version": "1.0.0",
-  "description": "Pacific-inspired, handmade items.",
+  "description": "Pacific coast-inspired, handmade items.",
   "main": "index.js",
   "repository": "https://github.com/WestWares/WestWares.git",
   "license": "MIT",
