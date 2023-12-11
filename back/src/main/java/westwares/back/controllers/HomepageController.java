@@ -1,4 +1,4 @@
-package westwares.back;
+package westwares.back.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
