@@ -1,4 +1,4 @@
-package westwares.back;
+package westwares.back.controllers;
 
 import java.util.Arrays;
 import java.util.List;
@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import westwares.back.models.Ware;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")

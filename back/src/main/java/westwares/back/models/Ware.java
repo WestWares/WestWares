@@ -1,4 +1,4 @@
-package westwares.back;
+package westwares.back.models;
 
 public class Ware {
 	private String name;
