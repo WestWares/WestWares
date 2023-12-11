@@ -44,16 +44,6 @@ export const Trending = () => {
   return (
     <>
       {/* <!-- BEGIN TRENDING --> */}
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
       <section className='trending'>
         <div className='trending-content'>
           {/*<SectionTitle

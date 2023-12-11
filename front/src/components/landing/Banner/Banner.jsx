@@ -13,12 +13,16 @@ export const Banner = () => {
               <br></br>
               <br></br>
               <br></br>
-              Nourish your skin with toxin-free cosmetic products. With the
-              offers that you can’t refuse.
+              Pacific coast-inspired,<br></br>handmade wares and fragrances.
+              <br>
+              </br>
+              
             </p>
 
             <Link href='/shop'>
-              <a className='btn'>Shop now</a>
+              {/*<div className='centered-text'>*/}
+                <a className='btn'>Shop now</a>
+              {/*</div>*/}
             </Link>
           </div>
         </div>
