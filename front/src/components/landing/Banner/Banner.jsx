@@ -13,7 +13,8 @@ export const Banner = () => {
               <br></br>
               <br></br>
               <br></br>
-              Pacific coast-inspired,<br></br>handmade wares and fragrances.
+              Pacific coast-inspired fragrances and wares.<br></br>
+              Created in El Dorado Hills, California.
               <br>
               </br>
               
