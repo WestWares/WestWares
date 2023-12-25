@@ -13,7 +13,7 @@ import { Layout } from 'layout/Layout';
 export default function Home() {
   return (
     <Layout>
-      {/*<Banner />*/}
+      <Banner />
       <Trending />
       <BrandLogo />
       <Discount />
