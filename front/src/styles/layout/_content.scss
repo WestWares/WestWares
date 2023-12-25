@@ -485,6 +485,26 @@ h6,
       padding: 0 3px;
     }
 
+    &__name-line-1 {
+      font-size: 24px;
+      text-transform: capitalize;
+      color: #222222;
+      display: block;
+      margin-bottom: 9px;
+      font-family: 'Tenor Sans';
+      padding: 0 3px;
+    }
+
+    &__name-line-2 {
+      font-size: 14px;
+      text-transform: capitalize;
+      color: #222222;
+      display: block;
+      margin-bottom: 9px;
+      font-family: 'Tenor Sans';
+      padding: 0 3px;
+    }
+
     &__cost {
       font-weight: 700;
       font-size: 18px;
@@ -5551,6 +5571,14 @@ input[type='search']::-webkit-search-results-decoration {
   .products-item__name,
   .blog-item__title {
     font-size: 22px;
+  }
+
+  .products-item__name-line-1 {
+    font-size: 22px;
+  }
+
+  .products-item__name-line-2 {
+    font-size: 11px;
   }
 
   h4 {

@@ -1,6 +1,8 @@
 [
   {
     "name": "Foundation Beshop",
+    "nameLine1": "Aloe",
+    "nameLine2": "Body Lotion",
     "oldPrice": "249.95",
     "price": "200.95",
     "id": "12132klj2322",
@@ -59,21 +61,22 @@
     ]
   },
   {
-    "name": "Lotion For Cleansing",
-    "oldPrice": "149.50",
-    "price": "100.90",
+    "name": "Chai & Pomander Candle",
+    "nameLine1": "Chai & Pomander",
+    "nameLine2": "100% Soy-Coconut Candle",
+    "price": "22.00",
     "id": "12132klj1213",
-    "isSale": true,
-    "isNew": false,
-    "image": "/assets/img/product-img1.jpg",
-    "category": "spa",
+    "isSale": false,
+    "isNew": true,
+    "image": "/assets/img/chai-pomander-candle-front-small.jpg",
+    "category": "candle",
     "filterItems": ["makeup", "spa", "perfume", "hair"],
 
     "isStocked": true,
     "productNumber": "IN1203",
 
     "imageGallery": [
-      "/assets/img/product-img1.jpg",
+      "/assets/img/chai-pomander-candle-front-small.jpg",
       "/assets/img/product-img6.jpg",
       "/assets/img/product-img7.jpg",
       "/assets/img/product-img8.jpg",
@@ -121,6 +124,8 @@
   },
   {
     "name": "Tony Mask",
+    "nameLine1": "Tony Mask",
+    "nameLine2": "100% Cruelty Free",
     "oldPrice": "549.95",
     "price": "200.95",
     "id": "12132klj232453",
@@ -180,6 +185,8 @@
   },
   {
     "name": "Spray Balm With Oat Extract",
+    "nameLine1": "Spray Balm",
+    "nameLine2": "With Oat Extract",
     "oldPrice": "249.95",
     "price": "200.95",
     "id": "12132klj2121212",
@@ -239,6 +246,8 @@
   },
   {
     "name": "Hydrogel Patches",
+    "nameLine1": "Hydrogel Patches",
+    "nameLine2": "100% Real Hydrogen",
     "oldPrice": "249.95",
     "price": "200.95",
     "id": "12132klj24444",
@@ -297,7 +306,9 @@
     ]
   },
   {
-    "name": "Detox body Cream",
+    "name": "Detox Body Cream",
+    "nameLine1": "Detox Body Cream",
+    "nameLine2": "100% Natural",
     "oldPrice": "249.95",
     "price": "200.95",
     "id": "12132klj2322321",
@@ -357,6 +368,8 @@
   },
   {
     "name": "Spray Balm With Oat Extract",
+    "nameLine1": "Chai & Pomander",
+    "nameLine2": "100% Soy-Coconut Candle",
     "oldPrice": "249.95",
     "price": "200.95",
     "id": "12132klj2121213",
@@ -416,6 +429,8 @@
   },
   {
     "name": "Hydrogel Patches",
+    "nameLine1": "Chai & Pomander",
+    "nameLine2": "100% Soy-Coconut Candle",
     "oldPrice": "249.95",
     "price": "200.95",
     "id": "12132klj24445",
@@ -475,6 +490,8 @@
   },
   {
     "name": "Detox body Cream",
+    "nameLine1": "Chai & Pomander",
+    "nameLine2": "100% Soy-Coconut Candle",
     "oldPrice": "249.95",
     "price": "200.95",
     "id": "12132klj23223233",
@@ -535,6 +552,8 @@
 
   {
     "name": "Spray Balm With Oat Extract",
+    "nameLine1": "Chai & Pomander",
+    "nameLine2": "100% Soy-Coconut Candle",
     "oldPrice": "249.95",
     "price": "200.95",
     "id": "12132klj212152",
@@ -594,6 +613,8 @@
   },
   {
     "name": "Hydrogel Patches",
+    "nameLine1": "Chai & Pomander",
+    "nameLine2": "100% Soy-Coconut Candle",
     "oldPrice": "249.95",
     "price": "200.95",
     "id": "12132klj244000",
@@ -653,6 +674,8 @@
   },
   {
     "name": "Detox body Cream",
+    "nameLine1": "Chai & Pomander",
+    "nameLine2": "100% Soy-Coconut Candle",
     "oldPrice": "249.95",
     "price": "200.95",
     "id": "12132klj23223766d",
@@ -713,6 +736,8 @@
 
   {
     "name": "Detox body Cream",
+    "nameLine1": "Chai & Pomander",
+    "nameLine2": "100% Soy-Coconut Candle",
     "oldPrice": "249.95",
     "price": "200.95",
     "id": "121asdglj23223233",
@@ -773,6 +798,8 @@
 
   {
     "name": "Spray Balm With Oat Extract",
+    "nameLine1": "Chai & Pomander",
+    "nameLine2": "100% Soy-Coconut Candle",
     "oldPrice": "249.95",
     "price": "200.95",
     "id": "12132klqrt12152",
@@ -832,6 +859,8 @@
   },
   {
     "name": "Hydrogel Patches",
+    "nameLine1": "Chai & Pomander",
+    "nameLine2": "100% Soy-Coconut Candle",
     "oldPrice": "249.95",
     "price": "200.95",
     "id": "12132klj223ssx00",
@@ -891,6 +920,8 @@
   },
   {
     "name": "Detox body Cream",
+    "nameLine1": "Chai & Pomander",
+    "nameLine2": "100% Soy-Coconut Candle",
     "oldPrice": "249.95",
     "price": "200.95",
     "id": "12132klj23w22766d",
