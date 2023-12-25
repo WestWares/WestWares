@@ -60,7 +60,9 @@ header {
       position: fixed;
       width: 100%;
       padding-top: 20px;
-      padding-bottom: 20px;
+      padding-bottom: 15px;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
       background-color: rgba($color: #fcedea, $alpha: 0.9);
     }
   }
@@ -189,6 +191,11 @@ header {
   }
 }
 
+.header-logo {
+  transition: $transition;
+  max-width: 200px;
+}
+
 .btn-menu {
   color: #222222;
   cursor: pointer;
@@ -245,27 +252,50 @@ header {
   .header-content {
     padding: 52px 75px 0px 55px;
   }
+  .header-content.fixed {
+    .header-logo {
+      transition: $transition;
+      max-width: 160px;
+      margin-left: -35px;
+    }
+  }
 }
 
 @media screen and (max-width: 1600px) {
   .header-logo {
-    min-width: 110px;
+    width: 170px;
+    margin-left: -35px;
+  }
+  .header-content.fixed {
+    .header-logo {
+      transition: $transition;
+      width: 140px;
+      margin-left: -25px;
+    }
   }
   .header-content {
-    padding: 42px 75px 0px 55px;
+    padding: 42px 55px 0px 55px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .header-logo {
-    min-width: 85px;
+    width: 145px;
+    margin-left: -35px;
+  }
+  .header-content.fixed {
+    .header-logo {
+      transition: $transition;
+      width: 120px;
+      margin-left: -30px;
+    }
   }
   .header-nav li {
     margin: 0 15px;
   }
   .header-nav li a,
   .header-nav li ul li a {
-    font-size: 12px;
+    font-size: 16px;
   }
   .header-box {
     width: calc(100% - 125px);
@@ -301,15 +331,28 @@ header {
     font-size: 12px;
     margin-left: 0;
   }
+  .header-logo {
+    width: 125px;
+    margin-left: -15px;
+  }
+  .header-content.fixed {
+    .header-logo {
+      transition: $transition;
+      width: 100px;
+      margin-left: -10px;
+    }
+  }
   .header-content {
     padding: 40px 45px 0px 25px;
   }
 }
 
 @media screen and (max-width: 767px) {
+  /*
   .btn-menu {
     display: block;
   }
+  */
   .header-content {
     padding: 15px 30px 0px 20px;
   }
@@ -321,9 +364,18 @@ header {
     top: 48%;
   }
   .header-logo {
-    width: 140px;
+    width: 110px;
     margin-left: -15px;
   }
+  .header-content.fixed {
+    .header-logo {
+      transition: $transition;
+      width: 80px;
+      margin-left: -10px;
+      margin-top: -10px;
+    }
+  }
+  /*
   .header-box {
     right: -306px;
     position: fixed;
@@ -344,6 +396,7 @@ header {
       right: 0;
     }
   }
+  */
   .header-nav {
     flex-direction: column;
   }
@@ -355,6 +408,7 @@ header {
   .header-nav li ul li a {
     font-size: 18px;
   }
+  /*
   .header-options li {
     margin-left: 0;
   }
@@ -366,13 +420,16 @@ header {
     display: flex;
     justify-content: space-between;
   }
+  */
 
   .header-content.fixed {
     padding-top: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 5px;
+    /*
     .btn-menu {
       top: 50%;
     }
+    */
   }
 
   .header-nav li ul {

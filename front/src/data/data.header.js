@@ -3,10 +3,6 @@ export const header = {
 };
 
 export const navItem = [
-  {
-    name: 'Home',
-    path: '/',
-  },
   /*{
     name: 'pages',
     path: '#',
@@ -57,20 +53,4 @@ export const navItem = [
       },
     ],
   },*/
-  {
-    name: 'Shop',
-    path: '/shop',
-  },
-  {
-    name: 'About',
-    path: '/categories',
-  },
-  {
-    name: 'Blog',
-    path: '/blog',
-  },
-  {
-    name: 'Contact',
-    path: '/contact',
-  },
 ];

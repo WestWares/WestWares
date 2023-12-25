@@ -6,7 +6,7 @@ export const SingleProduct = ({
   onAddToCart,
   addedInCart,
 }) => {
-  const { name, oldPrice, price, image, isSale, isNew, id } = product;
+  const { name, nameLine1, nameLine2, oldPrice, price, image, isSale, isNew, id } = product;
   return (
     <>
       {/* <!-- BEING SINGLE PRODUCT ITEM --> */}
@@ -40,7 +40,8 @@ export const SingleProduct = ({
         <div className='products-item__info'>
           <Link href={`/product/${id}`}>
             <a>
-              <span className='products-item__name'>{name}</span>
+              <span className='products-item__name-line-1'>{nameLine1}</span>
+              <span className='products-item__name-line-2'>{nameLine2}</span>
             </a>
           </Link>
           <span className='products-item__cost'>
