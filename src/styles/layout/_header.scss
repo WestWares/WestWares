@@ -169,7 +169,7 @@ header {
       i {
         color: #222222;
         transition: $transition;
-        font-size: 19px;
+        font-size: 24px;
         &:hover {
           color: #d05a52;
         }
@@ -193,7 +193,7 @@ header {
 
 .header-logo {
   transition: $transition;
-  max-width: 200px;
+  max-width: 250px;
 }
 
 .btn-menu {
@@ -263,7 +263,7 @@ header {
 
 @media screen and (max-width: 1600px) {
   .header-logo {
-    width: 170px;
+    width: 225px;
     margin-left: -35px;
   }
   .header-content.fixed {
@@ -280,7 +280,7 @@ header {
 
 @media screen and (max-width: 1200px) {
   .header-logo {
-    width: 145px;
+    width: 200px;
     margin-left: -35px;
   }
   .header-content.fixed {
@@ -301,7 +301,7 @@ header {
     width: calc(100% - 125px);
   }
   .header-options li {
-    margin-left: 25px;
+    margin-left: 37px;
   }
   .header-nav li ul li a {
     padding: 5px 30px;
@@ -314,10 +314,10 @@ header {
 
 @media screen and (max-width: 991px) {
   .header-options li i {
-    font-size: 16px;
+    font-size: 19px;
   }
   .header-options li {
-    margin-left: 15px;
+    margin-left: 30px;
   }
   .header-options li span {
     width: 18px;
@@ -332,7 +332,7 @@ header {
     margin-left: 0;
   }
   .header-logo {
-    width: 125px;
+    width: 185px;
     margin-left: -15px;
   }
   .header-content.fixed {
@@ -364,7 +364,7 @@ header {
     top: 48%;
   }
   .header-logo {
-    width: 110px;
+    width: 175px;
     margin-left: -15px;
   }
   .header-content.fixed {
@@ -374,6 +374,9 @@ header {
       margin-left: -10px;
       margin-top: -10px;
     }
+  }
+  .header-options {
+    margin-top: -10px;
   }
   /*
   .header-box {
