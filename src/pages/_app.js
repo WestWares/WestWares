@@ -26,13 +26,12 @@ var callAPI = (firstName,lastName)=>{
       headers: myHeaders,
       redirect: 'follow'
   };
-  console.log(raw);
   // make API call with parameters and use promises to get response
   fetch("https://ph2215gdq3.execute-api.us-east-1.amazonaws.com/dev", requestOptions)
   .then(response => response.text())
   .then(response => console.log(response))
   .then(response => console.log(response.text()))
-  .then(result => alert(JSON.parse(result).body))
+  //.then(result => alert(JSON.parse(result).body))
   .catch(error => console.log('error', error));
 }
 
