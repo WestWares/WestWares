@@ -161,7 +161,7 @@ header {
     display: flex;
     align-items: center;
     li {
-      margin-left: 45px;
+      margin-left: 55px;
       a {
         display: flex;
         align-items: center;
@@ -169,7 +169,7 @@ header {
       i {
         color: #222222;
         transition: $transition;
-        font-size: 24px;
+        font-size: 28px;
         &:hover {
           color: #d05a52;
         }
@@ -193,7 +193,7 @@ header {
 
 .header-logo {
   transition: $transition;
-  max-width: 250px;
+  max-width: 300px;
 }
 
 .btn-menu {
@@ -262,8 +262,14 @@ header {
 }
 
 @media screen and (max-width: 1600px) {
+  .header-options li i {
+    font-size: 24px;
+  }
+  .header-options li {
+    margin-left: 45px;
+  }
   .header-logo {
-    width: 225px;
+    width: 275px;
     margin-left: -35px;
   }
   .header-content.fixed {
@@ -280,7 +286,7 @@ header {
 
 @media screen and (max-width: 1200px) {
   .header-logo {
-    width: 200px;
+    width: 250px;
     margin-left: -35px;
   }
   .header-content.fixed {
@@ -313,12 +319,6 @@ header {
 }
 
 @media screen and (max-width: 991px) {
-  .header-options li i {
-    font-size: 19px;
-  }
-  .header-options li {
-    margin-left: 30px;
-  }
   .header-options li span {
     width: 18px;
     height: 18px;
@@ -353,6 +353,12 @@ header {
     display: block;
   }
   */
+  .header-options li i {
+    font-size: 19px;
+  }
+  .header-options li {
+    margin-left: 30px;
+  }
   .header-content {
     padding: 15px 30px 0px 20px;
   }
@@ -455,5 +461,15 @@ header {
   }
   .header-nav li:hover:after {
     display: none;
+  }
+  
+}
+
+@media screen and (max-width: 389px) {
+  .header-options li i {
+    font-size: 18px;
+  }
+  .header-options li {
+    margin-left: 20px;
   }
 }
