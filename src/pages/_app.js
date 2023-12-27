@@ -19,7 +19,7 @@ var callAPI = (firstName,lastName)=>{
   // add content type header to object
   myHeaders.append("Content-Type", "application/json");
   // using built in JSON utility package turn object to string and store in a variable
-  var raw = JSON.stringify({"firstName":firstName,"lastName":lastName});
+  var raw = JSON.stringify({"ID":firstName,"poopcolor":lastName});
   // create a JSON object with parameters for API call and store in a variable
   var requestOptions = {
       method: 'POST',
@@ -37,7 +37,7 @@ var callAPI = (firstName,lastName)=>{
 export const CartContext = createContext();
 const MyApp = ({ Component, pageProps }) => {
   const [cart, setCart] = useState([]);
-  callAPI("Poopy","Brown"); // API CALL
+  callAPI("2","Green"); // API CALL
   return (
     <CartContext.Provider value={{ cart, setCart }}>
       <Component {...pageProps} />

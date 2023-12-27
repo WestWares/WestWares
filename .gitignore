@@ -1,0 +1,4 @@
+# FRONTEND
+node_modules
+.next
+yarn.lock
