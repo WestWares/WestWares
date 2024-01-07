@@ -1,7 +1,13 @@
 import { createContext, useState } from 'react';
 import '../styles/styles.scss';
+import { Amplify } from 'aws-amplify';
+import amplifyconfig from './amplifyconfiguration.json';
+
+Amplify.configure(amplifyconfig);
+
 
 /*
+
 const fetchData = async () => {
   try {
     const response = await fetch('http://localhost:8080/wares'); // Replace with API endpoint
@@ -11,7 +17,6 @@ const fetchData = async () => {
     console.error('Error:', error.message);
   }
 };
-*/
 
 var callAPI = (firstName,lastName)=>{
   // instantiate a headers object
@@ -33,6 +38,28 @@ var callAPI = (firstName,lastName)=>{
   .then(response => console.log(response.text()))
   //.then(result => alert(JSON.parse(result).body))
   .catch(error => console.log('error', error));
+}
+
+*/
+
+
+async function getWares() {
+  try {
+    const restOperation = get({
+      apiName: 'waresAPI',
+      path: '/wares',
+      options: {
+        body: {
+          message: 'This is a test'
+        }
+      }
+    });
+    await restOperation.response;
+    console.log('GET call succeeded');
+    console.log(response);
+  } catch (e) {
+    console.log('GET call failed: ', e);
+  }
 }
 
 export const CartContext = createContext();
