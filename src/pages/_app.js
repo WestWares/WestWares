@@ -1,9 +1,10 @@
 import { createContext, useState } from 'react';
 import '../styles/styles.scss';
-import { Amplify } from 'aws-amplify';
-import amplifyconfig from './amplifyconfiguration.json';
+//import amplifyconfig from '../../src/amplifyconfiguration.json';
+//import { get } from 'aws-amplify/api'
 
-Amplify.configure(amplifyconfig);
+//Amplify.configure(amplifyconfig);
+
 
 
 /*
@@ -40,19 +41,13 @@ var callAPI = (firstName,lastName)=>{
   .catch(error => console.log('error', error));
 }
 
-*/
 
 
 async function getWares() {
   try {
     const restOperation = get({
-      apiName: 'waresAPI',
-      path: '/wares',
-      options: {
-        body: {
-          message: 'This is a test'
-        }
-      }
+      apiName: 'WestWaresAPI',
+      path: '/wares'
     });
     await restOperation.response;
     console.log('GET call succeeded');
@@ -61,11 +56,12 @@ async function getWares() {
     console.log('GET call failed: ', e);
   }
 }
+*/
 
 export const CartContext = createContext();
 const MyApp = ({ Component, pageProps }) => {
   const [cart, setCart] = useState([]);
-  callAPI("2","Green"); // API CALL
+  //getWares(); // API CALL
   return (
     <CartContext.Provider value={{ cart, setCart }}>
       <Component {...pageProps} />
