@@ -2,6 +2,7 @@ import { ProductsCarousel } from 'components/Product/Products/ProductsCarousel';
 import { SectionTitle } from 'components/shared/SectionTitle/SectionTitle';
 import { useEffect, useState } from 'react';
 import productData from 'data/product/product';
+/*
 import { Amplify } from 'aws-amplify';
 import amplifyconfig from '../../../amplifyconfiguration.json';
 import { get } from 'aws-amplify/api';
@@ -18,16 +19,17 @@ async function getWares() {
     console.log('GET call succeeded');
     console.log(response);
   } catch (e) {
-    console.log('GET call failed: ', e);
+    console.log('GET call failed: ', e.target);
   }
 }
+ */
 
 export const Trending = () => {
   const trendingProducts = [...productData];
   const [products, setProducts] = useState(trendingProducts);
   const [filterItem, setFilterItem] = useState('makeup');
 
-  getWares();
+  // getWares();
 
   useEffect(() => {
     const newItems = trendingProducts.filter((pd) =>

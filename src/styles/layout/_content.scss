@@ -533,7 +533,8 @@ h6,
   transform: translateY(-50%);
   left: -48px;
   background: #faf9ff;
-  border: 1px solid #eeeeee;
+  /*border: 1px solid #eeeeee;*/
+  border-radius: 4px;
   height: 60px;
   width: 40px;
   display: flex;
@@ -551,7 +552,7 @@ h6,
 
   &:hover {
     background: #222222;
-    border: 1px solid #222222;
+    /*border: 1px solid #222222;*/
 
     i {
       &:before {
@@ -1118,7 +1119,7 @@ h6,
 // subscribe
 
 .subscribe {
-  margin-top: 180px;
+  margin-bottom: 180px;
 
   &-form {
     background-color: #fcedea;
@@ -4826,7 +4827,10 @@ input[type='search']::-webkit-search-results-decoration {
     padding-top: 110px;
   }
 
-  .subscribe,
+  .subscribe {
+    margin-bottom: 110px;
+  }
+
   .insta-photos,
   .blog {
     margin-top: 110px;
@@ -5206,7 +5210,7 @@ input[type='search']::-webkit-search-results-decoration {
   }
 
   .subscribe {
-    margin-top: 110px;
+    margin-bottom: 110px;
   }
 
   .subscribe-form form {
@@ -5708,7 +5712,6 @@ input[type='search']::-webkit-search-results-decoration {
   }
 
   .slick-arrow {
-    top: 40.5%;
     left: 30px;
     z-index: 1;
   }
@@ -5914,7 +5917,7 @@ input[type='search']::-webkit-search-results-decoration {
   }
 
   .subscribe {
-    margin-top: 60px;
+    margin-bottom: 60px;
   }
 
   .subscribe .wrapper {

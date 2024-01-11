@@ -8,7 +8,7 @@ export const NavCol = ({ nav }) => {
         {nav?.navLinks?.map((nav, indx) => (
           <li key={nav.name + indx}>
             <Link href={nav.path}>
-              <a>{nav.name}</a>
+              {nav.name}
             </Link>
           </li>
         ))}
