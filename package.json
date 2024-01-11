@@ -19,8 +19,5 @@
     "react-slick": "^0.28.1",
     "sass": "^1.26.3",
     "slick-carousel": "^1.8.1"
-  },
-  "engines": {
-    "node": ">=18.17.0"
   }
 }
