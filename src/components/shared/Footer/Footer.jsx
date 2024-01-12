@@ -31,7 +31,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <i className='icon-mail'></i>
-                  <a href='mailto:info@beshop.com'>Garrett@WestWares.com</a>
+                  <a href='mailto:info@beshop.com'>Help@WestWares.com</a>
                 </li>
                 <li>
                   <i className='icon-smartphone'></i>
