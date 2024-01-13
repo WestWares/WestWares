@@ -278,14 +278,10 @@ footer {
   .footer-nav__col {
     max-width: 100%;
     width: 45%;
-    font-size: 12px;
     margin-bottom: 25px;
     &:last-of-type {
       margin-bottom: 0;
     }
-  }
-  .footer-nav__col a {
-    font-size: 12px;
   }
   .footer-nav__col:last-of-type ul li {
     &:last-of-type {
