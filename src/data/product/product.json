@@ -1,24 +1,20 @@
 [
   {
-    "name": "Foundation Beshop",
-    "nameLine1": "Aloe",
-    "nameLine2": "Body Lotion",
-    "oldPrice": "249.95",
-    "price": "200.95",
+    "name": "El Dorado Forest Candle",
+    "nameLine1": "El Dorado Forest",
+    "nameLine2": "100% Soy-Coconut Wax Candle",
+    "price": "22.00",
     "id": "12132klj2322",
     "isSale": true,
     "isNew": false,
-    "image": "/assets/img/product-img2.jpg",
+    "image": "/assets/img/El-Dorado-Forest.jpg",
     "category": "makeup",
     "filterItems": ["nail", "skin", "makeup", "spa", "perfume", "hair"],
     "isStocked": true,
     "productNumber": "IN1203",
     "imageGallery": [
-      "/assets/img/product-img2.jpg",
-      "/assets/img/product-img6.jpg",
-      "/assets/img/product-img7.jpg",
-      "/assets/img/product-img8.jpg",
-      "/assets/img/product-img9.jpg"
+      "/assets/img/El-Dorado-Forest.jpg",
+      "/assets/img/chai-pomander-candle-front-small.jpg"
     ],
     "colors": [
       "#FCEDEA",
@@ -63,12 +59,12 @@
   {
     "name": "Chai & Pomander Candle",
     "nameLine1": "Chai & Pomander",
-    "nameLine2": "100% Soy-Coconut Candle",
+    "nameLine2": "100% Soy-Coconut Wax Candle",
     "price": "22.00",
     "id": "12132klj1213",
     "isSale": false,
     "isNew": true,
-    "image": "/assets/img/chai-pomander-candle-front-small.jpg",
+    "image": "/assets/img/Chai-and-Pomander.png",
     "category": "candle",
     "filterItems": ["makeup", "spa", "perfume", "hair"],
 
@@ -76,11 +72,8 @@
     "productNumber": "IN1203",
 
     "imageGallery": [
-      "/assets/img/chai-pomander-candle-front-small.jpg",
-      "/assets/img/product-img6.jpg",
-      "/assets/img/product-img7.jpg",
-      "/assets/img/product-img8.jpg",
-      "/assets/img/product-img9.jpg"
+      "/assets/img/Chai-and-Pomander.png",
+      "/assets/img/chai-pomander-candle-front-small.jpg"
     ],
     "colors": [
       "#FCEDEA",
@@ -123,25 +116,21 @@
     ]
   },
   {
-    "name": "Tony Mask",
-    "nameLine1": "Tony Mask",
-    "nameLine2": "100% Cruelty Free",
-    "oldPrice": "549.95",
-    "price": "200.95",
+    "name": "Sequoia Groves Candle",
+    "nameLine1": "Sequoia Groves",
+    "nameLine2": "100% Soy-Coconut Wax Candle",
+    "price": "22.00",
     "id": "12132klj232453",
     "isSale": false,
     "isNew": true,
-    "image": "/assets/img/product-img3.jpg",
+    "image": "/assets/img/Sequoia-Groves.jpg",
     "category": "nail",
     "filterItems": ["nail", "skin", "makeup", "spa"],
     "isStocked": true,
     "productNumber": "IN1203",
     "imageGallery": [
-      "/assets/img/product-img3.jpg",
-      "/assets/img/product-img6.jpg",
-      "/assets/img/product-img7.jpg",
-      "/assets/img/product-img8.jpg",
-      "/assets/img/product-img9.jpg"
+      "/assets/img/Sequoia-Groves.jpg",
+      "/assets/img/chai-pomander-candle-front-small.jpg"
     ],
     "colors": [
       "#FCEDEA",
@@ -184,25 +173,21 @@
     ]
   },
   {
-    "name": "Spray Balm With Oat Extract",
-    "nameLine1": "Spray Balm",
-    "nameLine2": "With Oat Extract",
-    "oldPrice": "249.95",
-    "price": "200.95",
+    "name": "Mint Mocaccino Candle",
+    "nameLine1": "Mint Mocaccino",
+    "nameLine2": "100% Soy-Coconut Wax Candle",
+    "price": "22.00",
     "id": "12132klj2121212",
     "isSale": true,
     "isNew": false,
-    "image": "/assets/img/product-img4.jpg",
+    "image": "/assets/img/Mint-Mocaccino.jpg",
     "category": "hair",
     "filterItems": ["nail", "makeup", "perfume", "hair"],
     "isStocked": true,
     "productNumber": "IN1203",
     "imageGallery": [
-      "/assets/img/product-img4.jpg",
-      "/assets/img/product-img6.jpg",
-      "/assets/img/product-img7.jpg",
-      "/assets/img/product-img8.jpg",
-      "/assets/img/product-img9.jpg"
+      "/assets/img/Mint-Mocaccino.jpg",
+      "/assets/img/chai-pomander-candle-front-small.jpg"
     ],
     "colors": [
       "#FCEDEA",
