@@ -290,6 +290,17 @@ footer {
   }
 }
 
+@media screen and (max-width: 430px) {
+  .footer-nav__col ul li a,
+  .footer-nav__col ul li,
+  .footer-copy {
+    font-size: 12px;
+  }
+  .footer-nav__col:last-of-type ul li .footer-nav__col-phones a {
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 374px) {
   .footer-nav__col {
     width: 100%;
@@ -297,5 +308,13 @@ footer {
   .footer-nav__col-title {
     text-align: center;
     width: 100%;
+  }
+  .footer-nav__col ul li a,
+  .footer-nav__col ul li,
+  .footer-copy {
+    font-size: 8px;
+  }
+  .footer-nav__col:last-of-type ul li .footer-nav__col-phones a {
+    font-size: 8px;
   }
 }

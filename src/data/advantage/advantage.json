@@ -1,17 +1,47 @@
 [
   {
     "icon": "icon-natural",
-    "title": "natural",
-    "body": "Non aliqua reprehenderit reprehenderit culpa laboris nulla minim anim\n        velit adipisicing ea aliqua alluptate sit do do."
+    "title": "Paraffin-Free",
+    "body": "Unlike most candles, ours are free of paraffin wax, which is known to release toxic carcinogens when burning. Instead, we use a blend of only natural soy and coconut waxes."
   },
   {
     "icon": "icon-quality",
-    "title": "Quality",
-    "body": "Non aliqua reprehenderit reprehenderit culpa laboris nulla minim anim\n        velit adipisicing ea aliqua alluptate sit do do."
+    "title": "Paraben-Free",
+    "body": "Everything we offer is free of parabens, which are commonly used as preservatives in candles and cosmetics. These chemicals are thought to cause cancer and harm the environment."
   },
   {
     "icon": "icon-organic",
-    "title": "natural",
-    "body": "Non aliqua reprehenderit reprehenderit culpa laboris nulla minim anim\n        velit adipisicing ea aliqua alluptate sit do do."
+    "title": "Phthalate-Free",
+    "body": "Our products do not contain phthalates, which are often found in candles and cosmetics, and are detrimental to the reproductive, neurological, and developmental systems of humans."
+  },
+  {
+    "icon": "icon-organic",
+    "title": "Vegan",
+    "body": "None of our items contain animal products or ingredients derived from animals."
+  },
+  {
+    "icon": "icon-natural",
+    "title": "Cruelty-Free",
+    "body": "Our products and their ingredients are never tested on animals."
+  },
+  {
+    "icon": "icon-quality",
+    "title": "Sustainable",
+    "body": "We use sustainable ingredients and practices to protect the environment."
+  },
+  {
+    "icon": "icon-quality",
+    "title": "Carcinogen-Free",
+    "body": "Our products are free of carcinogens, which are known to cause cancer, tumors, and reproductive harm."
+  },
+  {
+    "icon": "icon-organic",
+    "title": "Mutagen-Free",
+    "body": "None of our items contain mutagens, which are known to cause heritable genetic mutations and diseases."
+  },
+  {
+    "icon": "icon-natural",
+    "title": "Toxin-Free",
+    "body": "Our products are free of organ, reproductive, and acute toxins, which cause diseases and adverse effects in humans."
   }
 ]
