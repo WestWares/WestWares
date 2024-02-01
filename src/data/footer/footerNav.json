@@ -32,11 +32,7 @@
     "title": "Categories",
     "navLinks": [
       {
-        "name": "Make up",
-        "path": "/categories"
-      },
-      {
-        "name": "SPA",
+        "name": "Candles",
         "path": "/categories"
       },
       {
@@ -44,7 +40,11 @@
         "path": "/categories"
       },
       {
-        "name": "Nails",
+        "name": "Cologne",
+        "path": "/categories"
+      },
+      {
+        "name": "Attars",
         "path": "/categories"
       },
       {

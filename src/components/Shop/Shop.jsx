@@ -80,22 +80,22 @@ export const Shop = () => {
                 <ul>
                   <li>
                     <a href='#'>
-                      Make up <span>(37)</span>
+                      Candles <span>(37)</span>
                     </a>
                   </li>
                   <li>
                     <a href='#'>
-                      SPA <span>(162)</span>
+                      Perfume <span>(162)</span>
                     </a>
                   </li>
                   <li>
                     <a href='#'>
-                      Perfume <span>(153)</span>
+                      Cologne <span>(153)</span>
                     </a>
                   </li>
                   <li>
                     <a href='#'>
-                      Nails <span>(86)</span>
+                      Attars <span>(86)</span>
                     </a>
                   </li>
                   <li>
@@ -126,7 +126,7 @@ export const Shop = () => {
                   />
                 </div>
               </div>
-              <div className='shop-aside__item'>
+              {/*<div className='shop-aside__item'>
                 <span className='shop-aside__item-title'>You have viewed</span>
                 {recentlyViewed.map((data) => (
                   <AsideItem key={data.id} aside={data} />
@@ -137,7 +137,7 @@ export const Shop = () => {
                 {todaysTop.map((data) => (
                   <AsideItem key={data.id} aside={data} />
                 ))}
-              </div>
+                </div>*/}
             </div>
             {/* <!-- Shop Main --> */}
             <div className='shop-main'>

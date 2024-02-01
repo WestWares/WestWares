@@ -27,7 +27,7 @@ async function getWares() {
 export const Trending = () => {
   const trendingProducts = [...productData];
   const [products, setProducts] = useState(trendingProducts);
-  const [filterItem, setFilterItem] = useState('makeup');
+  const [filterItem, setFilterItem] = useState('candles');
 
   // getWares();
 
@@ -40,20 +40,20 @@ export const Trending = () => {
 
   const filterList = [
     {
-      name: 'Make Up',
-      value: 'makeup',
+      name: 'Candles',
+      value: 'candles',
     },
     {
-      name: 'SPA',
-      value: 'spa',
+      name: 'Cologne',
+      value: 'cologne',
     },
     {
       name: 'Perfume',
       value: 'perfume',
     },
     {
-      name: 'Nails',
-      value: 'nail',
+      name: 'Attars',
+      value: 'attars',
     },
     {
       name: 'Skin care',

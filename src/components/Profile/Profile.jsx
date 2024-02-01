@@ -10,7 +10,7 @@ export const Profile = () => {
       <div className='profile'>
         <div className='wrapper'>
           <div className='profile-content'>
-            <ProfileAside />
+            {/* <ProfileAside /> */}
             <div className='profile-main'>
               <div className='tab-wrap'>
                 <ul className='nav-tab-list tabs'>

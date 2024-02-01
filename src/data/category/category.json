@@ -1,12 +1,12 @@
 [
   {
-    "categoryId": "spa",
-    "name": "SPA",
+    "categoryId": "cologne",
+    "name": "Cologne",
     "image": "/assets/img/top-categories-img1.jpg"
   },
   {
-    "categoryId": "nails",
-    "name": "Nails",
+    "categoryId": "attars",
+    "name": "Attars",
     "image": "/assets/img/top-categories-img2.jpg"
   },
   {
@@ -15,8 +15,8 @@
     "image": "/assets/img/top-categories-img3.jpg"
   },
   {
-    "categoryId": "makeup",
-    "name": "Make Up",
+    "categoryId": "candles",
+    "name": "Candles",
     "image": "/assets/img/top-categories-img4.jpg"
   },
   {

@@ -23,25 +23,43 @@ export const Advantage = () => {
         <div className='wrapper'>
           <div className='advantages-items'>
             {/*{advantages.map((advantage, index) => (*/}
-            <Card key="0" advantage={advantages[0]} />
-            <Card key="1" advantage={advantages[1]} />
-            <Card key="2" advantage={advantages[2]} />
+            {/*<div className='advantages-item'>*/}
+              <Card key="0" advantage={advantages[0]} />
+            {/*</div>*/}
+            {/*<div className='advantages-item'>*/}
+              <Card key="1" advantage={advantages[1]} />
+            {/*</div>*/}
+            {/*<div className='advantages-item'>*/}
+              <Card key="2" advantage={advantages[2]} />
+            {/*</div>*/}
             {/*}))}*/}
           </div>
           <br></br>
           <div className='advantages-items'>
             {/*{advantages.map((advantage, index) => (*/}
-            <Card key="3" advantage={advantages[3]} />
-            <Card key="4" advantage={advantages[4]} />
-            <Card key="5" advantage={advantages[5]} />
+            {/*<div className='advantages-item'>*/}
+              <Card key="3" advantage={advantages[3]} />
+            {/*</div>*/}
+            {/*<div className='advantages-item'>*/}
+              <Card key="4" advantage={advantages[4]} />
+            {/*</div>*/}
+            {/*<div className='advantages-item'>*/}
+              <Card key="5" advantage={advantages[5]} />
+            {/*</div>*/}
             {/*}))}*/}
           </div>
           <br></br>
           <div className='advantages-items'>
             {/*{advantages.map((advantage, index) => (*/}
-            <Card key="6" advantage={advantages[6]} />
-            <Card key="7" advantage={advantages[7]} />
-            <Card key="8" advantage={advantages[8]} />
+            {/*<div className='advantages-item'>*/}
+              <Card key="6" advantage={advantages[6]} />
+            {/*</div>*/}
+            {/*<div className='advantages-item'>*/}
+              <Card key="7" advantage={advantages[7]} />
+            {/*</div>*/}
+            {/*<div className='advantages-item'>*/}
+              <Card key="8" advantage={advantages[8]} />
+            {/*</div>*/}
             {/*}))}*/}
           </div>
         </div>
