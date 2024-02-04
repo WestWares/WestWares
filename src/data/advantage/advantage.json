@@ -5,14 +5,14 @@
     "body": "Unlike most candles, ours are free of paraffin wax, which is known to release toxic carcinogens when burning. Instead, we use a blend of only natural soy and coconut waxes."
   },
   {
-    "icon": "icon-quality",
-    "title": "Paraben-Free",
-    "body": "Everything we offer is free of parabens, which are commonly used as preservatives in candles and cosmetics. These chemicals are thought to cause cancer and harm the environment."
-  },
-  {
     "icon": "icon-organic",
     "title": "Phthalate-Free",
     "body": "Our products do not contain phthalates, which are often found in candles and cosmetics, and are detrimental to the reproductive, neurological, and developmental systems of humans."
+  },
+  {
+    "icon": "icon-quality",
+    "title": "Paraben-Free",
+    "body": "Everything we offer is free of parabens, which are commonly used as preservatives in candles and cosmetics. These chemicals are thought to cause cancer and harm the environment."
   },
   {
     "icon": "icon-organic",

@@ -62,6 +62,9 @@ export const Advantage = () => {
             {/*</div>*/}
             {/*}))}*/}
           </div>
+          <br></br>
+          <br></br>
+          <br></br>
         </div>
       </div>
       {/* <!-- ADVANTAGES EOF   --> */}
