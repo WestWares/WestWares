@@ -80,7 +80,7 @@ export const Footer = () => {
             */}
           </div>
           <div className='footer-copy'>
-            <span>&copy; 2024 West Wares</span>
+            <span>&copy; 2024 West Wares&nbsp;&nbsp;</span>
           </div>
         </div>
         <br></br>

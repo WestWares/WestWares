@@ -1,14 +1,14 @@
 [
   {
+    "icon": "icon-insta",
+    "path": "#/"
+  },
+  {
     "icon": "icon-facebook",
     "path": "#/"
   },
   {
     "icon": "icon-twitter",
-    "path": "#/"
-  },
-  {
-    "icon": "icon-insta",
     "path": "#/"
   },
   {

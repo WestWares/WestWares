@@ -22,7 +22,7 @@ export const Shop = () => {
   );
 
   const [products, setProducts] = useState([...productOrder]);
-  const [filter, setFilter] = useState({ isNew: false, isSale: true });
+  const [filter, setFilter] = useState({ isNew: false, isSale: false });
 
   useEffect(() => {
     setProducts(productOrder);
