@@ -3,27 +3,19 @@
     "title": "About",
     "navLinks": [
       {
-        "name": "About us",
+        "name": "About West Wares",
         "path": "/about"
-      },
-      {
-        "name": "Categories",
-        "path": "/categories"
       },
       {
         "name": "Shop",
         "path": "/shop"
       },
       {
-        "name": "Blog",
-        "path": "/blog"
-      },
-      {
         "name": "FAQ",
         "path": "/faq"
       },
       {
-        "name": "Contacts",
+        "name": "Contact us",
         "path": "/contact"
       }
     ]
@@ -50,28 +42,12 @@
       {
         "name": "Skin care",
         "path": "/categories"
-      },
-      {
-        "name": "Hair care",
-        "path": "/categories"
       }
     ]
   },
   {
     "title": "Useful links",
     "navLinks": [
-      {
-        "name": "Careers",
-        "path": "/about"
-      },
-      {
-        "name": "Privacy policy",
-        "path": "/faq"
-      },
-      {
-        "name": "Terms of use",
-        "path": "/about"
-      },
       {
         "name": "Support",
         "path": "/blog"
@@ -81,7 +57,11 @@
         "path": "/about"
       },
       {
-        "name": "Information",
+        "name": "Privacy policy",
+        "path": "/faq"
+      },
+      {
+        "name": "Terms of use",
         "path": "/about"
       }
     ]

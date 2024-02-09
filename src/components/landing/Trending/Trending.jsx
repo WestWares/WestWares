@@ -58,11 +58,7 @@ export const Trending = () => {
     {
       name: 'Skin care',
       value: 'skin',
-    },
-    {
-      name: 'Hair care',
-      value: 'hair',
-    },
+    }
   ];
   return (
     <>

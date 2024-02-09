@@ -79,7 +79,7 @@ export const ProductDetails = () => {
                   arrows={false}
                   asNavFor={nav1}
                   ref={(slider2) => setNav2(slider2)}
-                  slidesToShow={4}
+                  slidesToShow={2}
                   swipeToSlide={true}
                   focusOnSelect={true}
                 >
@@ -99,7 +99,7 @@ export const ProductDetails = () => {
                 ''
               )}
 
-              <span className='product-num'>SKU: {product.productNumber}</span>
+              {/*<span className='product-num'>SKU: {product.productNumber}</span>*/}
               {product.oldPrice ? (
                 <span className='product-price'>
                   <span>${product.oldPrice}</span>${product.price}

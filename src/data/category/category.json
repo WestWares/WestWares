@@ -23,10 +23,5 @@
     "categoryId": "skin",
     "name": "Skin",
     "image": "/assets/img/top-categories-img5.jpg"
-  },
-  {
-    "categoryId": "hair",
-    "name": "Hair",
-    "image": "/assets/img/top-categories-img6.jpg"
   }
 ]

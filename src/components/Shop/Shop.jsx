@@ -103,11 +103,6 @@ export const Shop = () => {
                       Skin care <span>(48)</span>
                     </a>
                   </li>
-                  <li>
-                    <a href='#'>
-                      Hair care <span>(54)</span>
-                    </a>
-                  </li>
                 </ul>
               </div>
               <div className='shop-aside__item'>
@@ -116,8 +111,8 @@ export const Shop = () => {
                   <Range
                     min={0}
                     max={20}
-                    defaultValue={[0, 20]}
-                    tipFormatter={(value) => `${value}$`}
+                    defaultValue={[0, 30]}
+                    tipFormatter={(value) => `$${value}`}
                     allowCross={false}
                     tipProps={{
                       placement: 'bottom',

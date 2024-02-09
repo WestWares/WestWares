@@ -35,13 +35,13 @@
     "body": "Our products are free of carcinogens, which are known to cause cancer, tumors, and reproductive harm."
   },
   {
-    "icon": "icon-organic",
-    "title": "Mutagen-Free",
-    "body": "None of our items contain mutagens, which are known to cause heritable genetic mutations and diseases."
-  },
-  {
     "icon": "icon-natural",
     "title": "Toxin-Free",
     "body": "Our products are free of organ, reproductive, and acute toxins, which cause diseases and adverse effects in humans."
+  },
+  {
+    "icon": "icon-organic",
+    "title": "Mutagen-Free",
+    "body": "None of our items contain mutagens, which are known to cause heritable genetic mutations and diseases."
   }
 ]

@@ -164,8 +164,24 @@ h6,
   transition: $transition;
   font-family: 'Lato';
 
+  
+  i {
+    font-size: 14px;
+
+    &:before {
+      color: #161616;
+    }
+  }
+
   &:hover {
-    background: #545454;
+    color: #eee;
+    background: #222222;
+
+    i {
+      &:before {
+        color: #fff;
+      }
+    }
   }
 
   &-icon {
@@ -179,14 +195,13 @@ h6,
   }
 
   &-grey {
-    background: #faf9ff;
-    border: 1px solid #eeeeee;
+    //background: #faf9ff;
+    //border: 1px solid #eeeeee;
     color: #222222;
 
     &:hover {
       color: #eee;
       background: #222222;
-      border-color: #222222;
     }
   }
 }
@@ -1589,6 +1604,7 @@ h6,
           align-items: center;
           background: #faf9ff;
           border: 1px solid #eeeeee;
+          border-radius: 6px;
 
           i {
             &:before {
@@ -2623,6 +2639,7 @@ blockquote,
         margin-right: 15px;
         margin-bottom: 56px;
         border-radius: 8px;
+        white-space: nowrap;
 
         & button.addList {
           border: none;
@@ -2892,8 +2909,7 @@ blockquote,
     }
 
     &__nav {
-      margin-left: -5px;
-      margin-right: -5px;
+      width: 50%;
 
       &-item {
         height: 135px;
@@ -2903,6 +2919,7 @@ blockquote,
         transition: $transition;
         position: relative;
         border: 2px solid transparent;
+        border-radius: 6px;
 
         &:after {
           position: absolute;
@@ -2911,8 +2928,7 @@ blockquote,
           top: 0;
           left: 0;
           content: '';
-          background-color: rgba(34, 34, 34, 0.15);
-          opacity: 0;
+          //background-color: rgba(34, 34, 34, 0.15);
           transition: $transition;
         }
 
@@ -2920,6 +2936,7 @@ blockquote,
           width: 100%;
           height: 100%;
           object-fit: cover;
+          opacity: 0.33;
         }
 
         &:hover {
@@ -2929,11 +2946,11 @@ blockquote,
         }
 
         &.slick-current {
-          border: 2px solid #d09352;
+          opacity: 1.0;
 
           &:hover {
             &:after {
-              opacity: 0;
+              opacity: 1;
             }
           }
         }
@@ -2941,7 +2958,7 @@ blockquote,
 
       & .slick-current {
         & img {
-          border: 2px solid #d09352;
+          opacity: 1.0;
         }
       }
     }
@@ -3225,8 +3242,7 @@ blockquote,
   }
 
   &-link {
-    background: #faf9ff;
-    border: 1px solid #eeeeee;
+    background: #eceae7;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3245,7 +3261,6 @@ blockquote,
 
     &:hover {
       background: #222222;
-      border: 1px solid #222222;
 
       i {
         &:before {
@@ -7034,6 +7049,7 @@ input[type='search']::-webkit-search-results-decoration {
 
   .product-slider__main img {
     height: 630px;
+    border-radius: 15px;
   }
 
   .product-slider__nav-item {
